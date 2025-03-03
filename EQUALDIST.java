@@ -10,10 +10,13 @@ class Codechef
 		int t=sc.nextInt();
 		for(int i=0;i<t;i++)
 		{
-		    int k=sc.nextInt();
-		    int n=sc.nextInt();
-		    System.out.println((k/n)*(k/n));
-		}
+		int a=sc.nextInt();
+		int b=sc.nextInt();
+		if((a+b)%2==0)
+		System.out.println("yes");
+		else
+		System.out.println("no");
+		}	
 
 	}
 }

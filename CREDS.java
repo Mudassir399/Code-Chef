@@ -10,9 +10,10 @@ class Codechef
 		int t=sc.nextInt();
 		for(int i=0;i<t;i++)
 		{
-		    int k=sc.nextInt();
-		    int n=sc.nextInt();
-		    System.out.println((k/n)*(k/n));
+		    int x=sc.nextInt();
+		    int y=sc.nextInt();
+		    int z=sc.nextInt();
+		    System.out.println((x*4)+(y*2)+(z*0));
 		}
 
 	}

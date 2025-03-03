@@ -10,9 +10,13 @@ class Codechef
 		int t=sc.nextInt();
 		for(int i=0;i<t;i++)
 		{
-		    int k=sc.nextInt();
-		    int n=sc.nextInt();
-		    System.out.println((k/n)*(k/n));
+		int x=sc.nextInt();
+		if(x<3)
+		System.out.println("Light");
+		else if(x>=3 && x<7)
+		System.out.println("moderate");
+		else
+		System.out.println("heavy");
 		}
 
 	}

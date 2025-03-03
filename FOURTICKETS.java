@@ -10,10 +10,13 @@ class Codechef
 		int t=sc.nextInt();
 		for(int i=0;i<t;i++)
 		{
-		    int k=sc.nextInt();
-		    int n=sc.nextInt();
-		    System.out.println((k/n)*(k/n));
+		    int x=sc.nextInt();
+		    int y=4*x;
+		    if(y<=1000)
+		    System.out.println("yes");
+		    else
+		    System.out.println("no");
+		    
 		}
-
 	}
 }

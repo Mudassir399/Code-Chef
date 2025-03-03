@@ -10,9 +10,11 @@ class Codechef
 		int t=sc.nextInt();
 		for(int i=0;i<t;i++)
 		{
-		    int k=sc.nextInt();
-		    int n=sc.nextInt();
-		    System.out.println((k/n)*(k/n));
+		    int x=sc.nextInt();
+		    if(x>30)
+		    System.out.println("yes");
+		    else 
+		    System.out.println("no");
 		}
 
 	}

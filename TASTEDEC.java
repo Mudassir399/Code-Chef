@@ -10,9 +10,14 @@ class Codechef
 		int t=sc.nextInt();
 		for(int i=0;i<t;i++)
 		{
-		    int k=sc.nextInt();
-		    int n=sc.nextInt();
-		    System.out.println((k/n)*(k/n));
+		    int x=sc.nextInt();
+		    int y=sc.nextInt();
+		    if(x*2>y*5)
+		    System.out.println("chocolate");
+		    else if(x*2==y*5)
+		    System.out.println("either");
+		    else
+		    System.out.println("candy");
 		}
 
 	}

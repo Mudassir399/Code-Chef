@@ -11,8 +11,8 @@ class Codechef
 		for(int i=0;i<t;i++)
 		{
 		    int k=sc.nextInt();
-		    int n=sc.nextInt();
-		    System.out.println((k/n)*(k/n));
+		    int y=sc.nextInt();
+		    System.out.println(7*k-y);
 		}
 
 	}
